@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-package_name = 'trackers'
+package_name = 'yolov8_tracking'
 
 setup(
     name=package_name,
