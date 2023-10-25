@@ -36,7 +36,7 @@ git clone --recurse-submodules https://github.com/IASRobolab/yolov8_tracking.git
 cd yolov8_tracking/yolov8
 grep -ivE "^opencv-python|^#|^\s*$" requirements.txt | sed s/#.*//g > temp.txt && mv temp.txt requirements.txt && pip install -e .
 cd yolov8_tracking/
-pip install -r requirements.txt  # install dependencies
+pip install -e .  # install dependencies
 ```
 
 <details>
